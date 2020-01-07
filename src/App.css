@@ -1,0 +1,203 @@
+.app {
+  height: 100vh;
+  display: flex;
+  background-image: linear-gradient(to top, rgba(82, 196, 185, 0.863),rgba(46, 65, 88, 0.322) );
+}
+
+.Right_Side {
+  width: 50%;
+  height: 80%;
+  padding: 25px 40px;
+  margin: 4% 16% 0% 25%;
+  overflow: auto;
+  box-shadow: 0 4px 8px 0 rgba(24, 9, 109, 0.431), 0 6px 20px 0 rgba(30, 24, 56, 0.431);
+  background-color: rgba(202, 218, 228, 0.746);  
+}
+
+.valid{
+  color: rgba(255, 72, 0, 0.849);
+  padding-top: 5px;
+  font-size: .9em;
+}
+
+.FormCenter {
+  margin-bottom: 100px;
+}
+
+.FormTitle {
+  color: #707C8B;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+.FormHeading{
+    font: bold;
+    padding-bottom: 25px;
+    font-size: 2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.FormTitle__Link {
+  color: #707C8B;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.7em;
+  margin: 0 10px;
+  padding-bottom: 5px;
+}
+
+.Forgot__Pwd{
+  color: rgb(30, 163, 180);
+  text-decoration: none;
+  display: inline-block;
+  border-bottom: 1.5px solid #225E62;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+.Back__Button{
+  background-color: rgb(46, 65, 88);
+  padding: 15px 70px;
+  color: white;
+  outline: none;
+  text-decoration: none;
+
+}
+
+.Category__Box{
+  background-color: rgba(102, 150, 180, 0.616);
+  padding: 3px 0px 2px 5px;
+  margin: 5px 2px 15px 0px;
+  display: block;
+}
+.Category__Box:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Category__Text{
+  cursor: default;
+  font-size: 1.02em;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+  color: rgba(34, 5, 18, 0.808);
+}
+.Category__Button{
+  background-color: rgba(19, 141, 45, 0.76);
+  color: white;
+  outline: none;
+  border: none;
+  display: block;
+  text-decoration: none;
+  width: 75px;
+  padding: 10px 12px 10px 29px;
+  margin: -55px 0px 30px 580px;
+  font-size: .8em;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 1em;
+}
+.Category__Button:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.FormTitle__Link:first-child {
+  margin-left: 0;
+}
+
+.FormTitle__Link--Active {
+  color: white;
+  border-bottom: 1px solid #199087;
+}
+
+.FormField {
+  margin-bottom: 40px;
+}
+
+.FormField__Label {
+  display: block;
+  text-transform: uppercase;
+  font-size: .9em;
+  color: rgba(12, 10, 10, 0.794);
+}
+.FormField__Input {
+  width: 85%;
+  background-color: transparent;
+  border: none;
+  color: rgb(8, 8, 8);
+  outline: none;
+  border-bottom: 1px solid #445366;
+  font-size: 1em;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  font-weight: 300;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.FormField__Input::placeholder {
+  color: #616E7F;
+}
+
+.FormField__Button {
+  background-image: linear-gradient(to right, rgb(82, 196, 185),rgb(17, 121, 240) );
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  padding: 15px 70px;
+  font-size: .8em;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.FormField__Button:hover {
+  background-image: linear-gradient(to right, rgb(82, 196, 185),rgb(82, 196, 185) );
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Submit__Button{
+  background-image: linear-gradient(to right, rgb(82, 196, 185),rgb(17, 121, 240) );
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  padding: 15px 70px;
+  font-size: .8em;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.Submit__Button:disabled:hover{
+  cursor: not-allowed;
+}
+
+.Submit__Button:hover{
+  background-image: linear-gradient(to right, rgb(82, 196, 185),rgb(82, 196, 185) );
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.FormField__Link {
+  color: #66707D;
+  text-decoration: none;
+  display: inline-block;
+  border-bottom: 1.5px solid #225E62;
+  margin-left: 5px;
+  padding-bottom: 5px;
+}
+
+.FormField__CheckboxLabel {
+  color: #646F7D;
+  font-size: .9em;
+}
+
+.FormField__Checkbox {
+  position: relative;
+  top: 1.5px;
+}
+
+.FormField__TermsLink {
+  color: white;
+  border-bottom: 1px solid #199087;
+  text-decoration: none;
+  display: inline-block;
+  padding-bottom: 2px;
+  margin-left: 5px;
+}
